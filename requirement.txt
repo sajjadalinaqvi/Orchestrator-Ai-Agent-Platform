@@ -1,0 +1,20 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+pydantic==2.7.4
+groq==0.9.0  # Groq SDK
+ollama==0.3.0  # Ollama Python client
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.31
+pgvector==0.2.5  # For vector extension
+langchain==0.2.7  # For RAG/orchestrator helpers (optional, but simplifies)
+langchain-community==0.2.7
+faiss-cpu==1.8.0  # For hybrid search fallback
+cohere==5.6.1  # For reranker (free tier)
+google-api-python-client==2.138.0  # For Gmail/Calendar
+slack-sdk==3.31.0
+hubspot-api-client==9.0.0
+zendesk==1.3.0  # Zendesk SDK
+presidio-analyzer==2.2.355  # For PII redaction (Microsoft Presidio)
+python-dotenv==1.0.1
+pytest==8.3.2  # For tests
+docker==7.1.0  # For infra scripting
